@@ -8,7 +8,7 @@ I just needed a container which can listen receive CloudEvents on a HTTP layer a
 
 ```shell
 $ kubectl run -ti --image docker.io/nachtmaar/ce-subscriber:latest ce-listener
-$ kubectl logs ce-nils -f
+$ kubectl logs ce-listener -f
 listening on :8080
 ```
 
